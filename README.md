@@ -25,5 +25,25 @@ pip install IPy
 ```
 
 
+# Setup Instructions
+1. Clone the repository to your local machine:
+```
+git clone https://github.com/kr-anish/PortScanner
+```
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+3. Run the script from the command line.
+```
+python3 PortScanner.py
+```
+
+# Usage
+Run the script from the command line. The script prompts for targets and a port range.
+```
+python3 PortScanner.py
+```
+Enter the target to scan and the port range
 
 
