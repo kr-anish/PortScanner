@@ -45,5 +45,21 @@ Run the script from the command line. The script prompts for targets and a port 
 python3 PortScanner.py
 ```
 Enter the target to scan and the port range
+<img width="1912" height="918" alt="Image" src="https://github.com/user-attachments/assets/a6ca4d0d-e223-4610-b2c6-2e9d164c4dc2" />
+
+Note:
+
+• If you press Enter without - in the port prompt, the script will default to scanning all TCP ports (1-65535).
+
+• When providing multiple targets, separate them with commas.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61952b48-a93a-44c0-82c3-3ca545051253" />
+
+# Troubleshooting
+• ModuleNotFoundError: No module named 'IPy' —> Install the IPy package: pip install IPy.
+
+• socket.gaierror when resolving hostnames —> check your DNS or the hostname spelling.
+
+• If scanning localhost or very large port ranges, you may hit system limits for threads or open file descriptors. Use a thread pool or reduce the range.
 
 
