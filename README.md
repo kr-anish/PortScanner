@@ -53,6 +53,12 @@ Note:
 
 • When providing multiple targets, separate them with commas.
 
+Example: I have a metasploitable lab setup 
+
+<img width="930" height="521" alt="Image" src="https://github.com/user-attachments/assets/c35eef15-6cd9-45bc-8ce5-bd626c239e36" />
+
+we will go ahead with the scan to see what it looks like:
+
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61952b48-a93a-44c0-82c3-3ca545051253" />
 
 # Troubleshooting
